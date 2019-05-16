@@ -1,0 +1,2 @@
+# MysExtension
+MySensors custom extension
