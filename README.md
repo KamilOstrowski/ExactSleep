@@ -1,17 +1,13 @@
-# MysExtension<br/>
-MySensors custom extension<br/>
+# ExactSleep<br/>
+MySensors custom ExactSleep<br/>
 <br/><br/>
-Available extensions: <br/>
-<br/><br/>
--EXT_SLEEP <br/>
-provides exactSleep(const uint32_t sleepingMS, const bool smartSleep = false) method.
+library provides exactSleep(const uint32_t sleepingMS, const bool smartSleep = false) method.
 
 <br/><br/>
 usage in sketch:
 <br/><br/>
 
-#define EXT_SLEEP<br/>
-#include <MysExtension.h> //include before MySensors.h<br/>
+#include <ExactSleep.h> //include before MySensors.h<br/>
 #include <MySensors.h><br/>
 <br/>
 void setup() <br/>
